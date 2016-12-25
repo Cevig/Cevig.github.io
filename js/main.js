@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", onload, false);
+﻿document.addEventListener("DOMContentLoaded", onload, false);
 document.querySelector('.glyphicon-plus-sign').addEventListener("click", newNote, false);
 
 
@@ -178,6 +178,7 @@ function toogleForm(attr) {
         }
     }
 }
+
 function isJsonString(str) {
     try {
         JSON.parse(str);

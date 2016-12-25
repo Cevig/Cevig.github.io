@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <link href="css/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet/less" type="text/css" href="css/style.less"/>
-
     <script src="js/lib/jquery.js"></script>
     <script src="js/lib/bootstrap.js"></script>
     <script src="js/lib/less.min.js"></script>
@@ -15,7 +14,6 @@
 <header><h1>Users list</h1></header>
 <div class="container">
     <div class="row">
-
         <table class="table table-hover table-bordered col-sm-6 col-sm-offset-3">
             <thead>
             <tr>
@@ -26,10 +24,6 @@
             </tbody>
         </table>
         <a href="#" class="col-sm-12 col-sm-offset-3 glyphicon glyphicon-plus-sign"></a>
-
-
-
-
         <form name="person" class="form-horizontal col-sm-10 col-sm-offset-1 hidden">
             <div class="form-group">
                 <label class="control-label col-sm-4" for="name">First name:</label>
@@ -57,6 +51,5 @@
         </form>
     </div>
 </div>
-
 </body>
 </html>
